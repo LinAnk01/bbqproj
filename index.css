@@ -11,6 +11,49 @@
   max-height: auto;
 }
 
+.btn-bd-info {
+  --bs-btn-font-family: Rockwell;
+  --bs-btn-bg: #b15333;
+  --bs-btn-hover-color: #d7856a;
+  --bs-btn-color: white;
+}
+
+.divider {
+  display: flex;
+  background-color: #b15333;
+  position: auto;
+}
+
+.carousel {
+  background-color: #b15333;
+}
+
 .carousel-item {
-  height: 420px;
+  height: 30%;
+}
+
+.chatterbox {
+  background-color: #b15333;
+  width: 100%;
+}
+
+.clearfix {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  background-color: #b15333;
+  font-family: Century Schoolbook;
+  color: white;
+  font-style: italic;
+}
+.clearfix h2 {
+  border: 3px solid white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Rockwell;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-style: normal;
 }/*# sourceMappingURL=index.css.map */
