@@ -1,11 +1,25 @@
 
+
+  p {
+    font-family: 'Lora', serif;
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+    b {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-style: normal;
+    }
+  
+  }
+
+
+
 .navbar {
     font-family: Rockwell;
     display: flex;
     align-items: flex-start;
-    h1 {
-        font-size: 100px;
-    }
     img {
         max-width: 100%;
         max-height: auto;
@@ -42,9 +56,7 @@
     position: relative;
     margin: auto;
     background-color: #b15333;
-    font-family: Century Schoolbook;
-    color: white;
-    font-style: italic;
+    
 
     h2 {
       border: 3px solid white;
@@ -54,5 +66,12 @@
       font-weight: bold;
       margin-left: 10px;
       font-style: normal;
+      color: white;
     }
   }
+
+.bottom-row {
+  p {
+    color: #b15333;
+  }
+}
