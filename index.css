@@ -2,7 +2,7 @@ p {
   font-family: "Lora", serif;
   color: white;
   font-style: italic;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
 }
 p b {
@@ -52,6 +52,10 @@ p b {
   position: relative;
   margin: auto;
   background-color: #b15333;
+}
+.clearfix video {
+  max-width: 500px;
+  border: 3px solid white;
 }
 .clearfix h2 {
   border: 3px solid white;
