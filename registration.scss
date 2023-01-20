@@ -1,0 +1,55 @@
+p {
+    font-family: 'Lora', serif;
+    color: #b15333;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    b {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-style: normal;
+    }
+  
+  }
+
+button {
+    background-color: #b15333;
+    border: none;
+    border-radius: 15%;
+    color: white;
+}
+
+form {
+    font-family: "Rockwell";
+    color: #b15333;
+    font-size: 20px;
+
+    
+}
+
+input {
+    color: #270e05;
+}
+
+.navbar {
+  font-family: Rockwell;
+  display: flex;
+  align-items: flex-start;
+  img {
+      max-width: 100%;
+      max-height: auto;
+    }
+}
+
+
+.divider {
+    display: flex;
+    background-color: #b15333;
+    position: auto;
+  }
+
+  .bottom-row {
+    p {
+      color: #b15333;
+    }
+  }
